@@ -1,0 +1,31 @@
+ALGORITHM: AUTOMATED BLOOD CELL COUNT ANALYSIS USING A 2D ARRAY
+
+1. Start the program.
+
+2. Declare an array to store sample IDs and a two-dimensional array to store RBC, WBC, and platelet counts.
+
+3. Initialize the sum of each blood parameter to zero.
+
+4. Read the number of samples.
+
+5. Check whether the number of samples is between 1 and 20. If invalid, display an error message and terminate the program.
+
+6. Read each sample ID, RBC count, WBC count, and platelet count.
+
+7. Check whether any count is negative. If so, display an error message and terminate the program.
+
+8. Initialize the maximum value of each parameter using the first sample's counts.
+
+9. Calculate the sum and maximum value of each parameter using nested loops.
+
+10. Calculate the average of each parameter by dividing its sum by the number of samples.
+
+11. Display the average and maximum values for RBC, WBC, and platelet counts.
+
+12. Sort the sample IDs alphabetically using bubble sort and string comparison.
+
+13. Whenever two sample IDs are swapped, swap their corresponding blood count values in the two-dimensional array.
+
+14. Display the sample IDs and their associated blood counts in sorted order.
+
+15. Stop the program.
