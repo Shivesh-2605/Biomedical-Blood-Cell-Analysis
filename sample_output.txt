@@ -1,0 +1,33 @@
+SAMPLE INPUT
+
+Enter number of samples (max 20): 3
+
+Enter sample ID: S103
+Enter RBC count (million/uL): 4.5
+Enter WBC count (thousand/uL): 7.0
+Enter platelet count (thousand/uL): 250
+
+Enter sample ID: S101
+Enter RBC count (million/uL): 5.0
+Enter WBC count (thousand/uL): 6.0
+Enter platelet count (thousand/uL): 300
+
+Enter sample ID: S102
+Enter RBC count (million/uL): 4.2
+Enter WBC count (thousand/uL): 8.0
+Enter platelet count (thousand/uL): 220
+
+SAMPLE OUTPUT
+
+--- Blood Cell Count Analysis ---
+Average RBC count: 4.57
+Maximum RBC count: 5.00
+Average WBC count: 7.00
+Maximum WBC count: 8.00
+Average Platelets count: 256.67
+Maximum Platelets count: 300.00
+
+--- Samples Sorted by ID ---
+S101: RBC=5.00, WBC=6.00, Platelets=300.00
+S102: RBC=4.20, WBC=8.00, Platelets=220.00
+S103: RBC=4.50, WBC=7.00, Platelets=250.00
